@@ -38,7 +38,7 @@ const data = {
     dev: chalk.hex('#330093')("https://dev.to/pratik_kumar"),
     linkedIn:chalk.hex('#AB009C')("https://www.linkedin.com/in/pratik-kumar-4675761aa/"),
     website: chalk.hex('#00AB9E')("https://pratik-codes.herokuapp.com/"),
-    npm: chalk.hex('#A1AB00')("https://www.npmjs.com/~loopinfinity0"),
+    leetcode: chalk.hex('#A1AB00')("https://leetcode.com/loopinfinity0/"),
 
     labelDev: chalk.hex('#A959FF').bold("                Dev:"),
     labelFact: chalk.hex('#FF6262').bold("                Fun Fact:"),
@@ -46,7 +46,7 @@ const data = {
     labelGithub: chalk.hex('#9E9E9E').bold("            Github:"),
     labelLinkedIn: chalk.hex('#F295FF').bold(" LinkedIn:"),
     labelWebsite: chalk.hex('#59FFC8').bold("         Portfolio:"),
-    labelNpm: chalk.hex('#FFF976').bold("            Card:")
+    labelLeetcode: chalk.hex('#FFF976').bold("          Leetcode:")
 }
 
 const me = boxen(
@@ -57,11 +57,11 @@ const me = boxen(
         ``,
         `${data.labelDev}  ${data.dev}`,
         `${data.labelGithub} ${data.github}`,
+        `${data.labelLeetcode}  ${data.leetcode}`,
         `${data.labelWebsite}  ${data.website}`,
         `${data.labelCodepen}  ${data.codepen}`,
         `${data.labelLinkedIn}  ${data.linkedIn}`,
-        ``,
-        `${data.labelNpm}  ${data.npm}`,
+        
         ``,
         `${chalk.bold("      Hi there! I am Pratik, messing around with web tech.")}`,
         `${chalk.bold("      Striving everyday to improve DS Algo and dev skills.")}`,
