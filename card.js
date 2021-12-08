@@ -15,7 +15,7 @@ const questions = [
         message : "What do you want me to do?",
         choices:[
             {
-                name:`Drop a ${chalk.bold("email")}?`,
+                name:`Drop a ${chalk.bold("mail")}?`,
                 value:() =>{
                     open("mailto:light.moon42000@gmail.com");
                     console.log("\nLooking forward to hear from you!\n");
